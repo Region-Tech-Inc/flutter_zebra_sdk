@@ -70,7 +70,13 @@ class FlutterZebraSdkPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
   }
 
   override fun onDetachedFromActivityForConfigChanges() {
-    TODO("Not yet implemented(Activity)")
+    try{
+      channel.setMethodCallHandler(null)
+      printers.clear()
+    }catch (e: Exception) {
+      // Handle any exceptions that occur
+      Log.e(logTag, "Error in onDetachedFromActivityForConfigChanges: ${e.message}")
+    }
   }
 
   override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {
