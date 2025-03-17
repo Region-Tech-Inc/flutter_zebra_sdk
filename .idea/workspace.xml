@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6519bf-01df-413c-8c28-d7d041c67682" name="Default Changelist" comment="trying to fix onDetachedFromActivityForConfigChanges error">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fa6519bf-01df-413c-8c28-d7d041c67682" name="Default Changelist" comment="added namespace">
       <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708179977354</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added namespace">
+      <option name="closed" value="true" />
+      <created>1742249536219</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742249536219</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +101,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="trying to fix onDetached error" />
     <MESSAGE value="trying to fix onDetachedFromActivityForConfigChanges error" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to fix onDetachedFromActivityForConfigChanges error" />
+    <MESSAGE value="added namespace" />
+    <option name="LAST_COMMIT_MESSAGE" value="added namespace" />
   </component>
 </project>
